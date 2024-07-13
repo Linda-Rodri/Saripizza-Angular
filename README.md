@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Requirements to be able to run Angular and api
 Have installed : Node js 20.15.1 If you don't know which version run this command in the terminal: command node-v
 
-## install nodejs
+## Install nodejs
 command for installation: npm install
 
 
