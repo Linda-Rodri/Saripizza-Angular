@@ -1,5 +1,5 @@
 .navbar-brand-logo {
-  width: 60px;
+  width: 40px;
   height: auto;
 }
 .dropdown-menu-1 {
@@ -8,3 +8,54 @@
   left: 80% !important ;
   z-index: 1000 !important; /* Asegúrate de que esté por encima de otros elementos si es necesario */
 }
+.nav-header{
+background: linear-gradient(to right,#e53935, #fbc02d)!important;
+}
+
+.from-search {
+  background: white !important;
+  color: black;
+  border-radius: 12px;
+  border: solid 1px;
+  width: 360px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.from-search:hover {
+  background-color: #f0f0f0; /* Cambia el fondo a un gris claro */
+  color: #333; /* Cambia el color del texto a un gris oscuro */
+  border-color: #888; /* Cambia el color del borde a un gris intermedio */
+}
+
+
+.nav-header1{
+  background: none !important;
+}
+
+.from-search::placeholder{
+  color: black !important;
+  opacity: 1;
+}
+
+.menu1{
+  background-color: #fbc02d;
+}
+
+.btn-custom {
+  background-color: #e53935; /* Color inicial */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto hover */
+.btn-custom:hover {
+  background-color: #e53935; /* Cambia a un azul más oscuro */
+  transform: scale(1.1); /* Aumenta el tamaño ligeramente */
+  color: #ffffff; /* Cambia el color del texto */
+}
+
+
