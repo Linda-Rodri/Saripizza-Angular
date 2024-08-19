@@ -59,3 +59,7 @@ background: linear-gradient(to right,#e53935, #fbc02d)!important;
 }
 
 
+.footer-background{
+  background-color: #e53935; /* Color inicial */
+  width: 101.2%;;
+}
