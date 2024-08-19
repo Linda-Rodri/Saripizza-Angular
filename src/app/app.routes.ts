@@ -7,7 +7,7 @@ import { authGuard } from './core/guards/auth.guard';
 import { guestGuard } from './core/guards/guest.guard';
 import { RegistrarProductosComponent } from './pages/registrar-productos/registrar-productos.component';
 import { CambiarContrasenaComponent } from './pages/cambiar-contrasena/cambiar-contrasena.component';
-import { MundoComponent } from './hola/mundo/mundo.component';
+import { CartsComponent } from './pages/cart/carts.component';
 
 export const routes: Routes = [
     { path: '', component: LayoutComponent,
@@ -25,10 +25,9 @@ export const routes: Routes = [
                 // canActivate:[authGuard], //se usan los guard para redirecionar
                 component: DashboardComponent
             },
-            {path : 'mundo',
-              // canActivate:[authGuard], //se usan los guard para redirecionar
-              component: MundoComponent
-          },
+            {path : 'cart',
+                component: CartsComponent
+            },
             {path : 'registarProductos',
                 canActivate:[authGuard],
                 component: RegistrarProductosComponent
